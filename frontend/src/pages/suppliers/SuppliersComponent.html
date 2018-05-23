@@ -1,73 +1,86 @@
 <div class="container-fluid">
-    <div class="row page-container">
-        <div class="col-md-3 filter-column">
-            <div class="card">
-                <div class="card-header">
-                    Filter
-                </div>
-                <div class="card-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="searchText">Search text</label>
-                            <input type="text" class="form-control" id="searchText" placeholder="">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Example select</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect2">Example multiple select</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <div class="row">
-                <div class="col-md-12 supplier-item">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Special title treatment</h4>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 supplier-item">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Special title treatment</h4>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+	<div class="row page-container">
+		<div class="col-md-3 filter-column">
+			<div class="card">
+				<div class="card-header">
+					Filter
+				</div>
+				<div class="card-body">
+					<form>
+						<div class="form-group">
+							<label for="searchText">Search text</label>
+							<input type="text" class="form-control" id="searchText" placeholder="">
+						</div>
+						<button type="button" class="btn btn-primary">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-9">
+
+			<div class="row">
+				<div class="col-md-12 supplier-item">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-3">
+									<img class="img-fluid supplier-image" src="https://www.sigmanest.com/wp-content/uploads/2017/11/Dummy.jpg">
+								</div>
+								<div class="col-md-9">
+									<h4 class="card-title">Cedric's babyspullen</h4>
+									<p class="card-text">
+										Al vier jaar onderhouden wij de traditie van lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ...
+									</p>
+									<a [routerLink]="['/suppliers', 1]" class="btn btn-primary">More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 supplier-item">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-3">
+									<img class="img-fluid supplier-image" src="https://www.sigmanest.com/wp-content/uploads/2017/11/Dummy.jpg">
+								</div>
+								<div class="col-md-9">
+									<h4 class="card-title">Cedric's babyspullen</h4>
+									<p class="card-text">
+										Al vier jaar onderhouden wij de traditie van lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ...
+									</p>
+									<a [routerLink]="['/suppliers', 2]" class="btn btn-primary">More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 supplier-item">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-3">
+									<img class="img-fluid supplier-image" src="https://www.sigmanest.com/wp-content/uploads/2017/11/Dummy.jpg">
+								</div>
+								<div class="col-md-9">
+									<h4 class="card-title">Cedric's babyspullen</h4>
+									<p class="card-text">
+										Al vier jaar onderhouden wij de traditie van lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ...
+									</p>
+									<a [routerLink]="['/suppliers', 3]" class="btn btn-primary">More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>

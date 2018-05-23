@@ -8,6 +8,9 @@ import { HomeComponent } from '../pages/home/HomeComponent';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SuppliersComponent } from '../pages/suppliers/SuppliersComponent';
+import { SupplierDetailComponent } from '../pages/supplierDetail/SupplierDetailComponent';
+import { RegisterComponent } from '../pages/register/RegisterComponent';
+
 
 
 @NgModule({
@@ -15,7 +18,9 @@ import { SuppliersComponent } from '../pages/suppliers/SuppliersComponent';
     AppComponent,
     PageNotFoundComponent,
     HomeComponent,
-    SuppliersComponent
+    SuppliersComponent,
+    SupplierDetailComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
